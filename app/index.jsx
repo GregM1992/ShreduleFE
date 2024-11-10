@@ -1,10 +1,15 @@
+import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Hello! Welcome to Shredule!
+      </Text>
+      <Link href={{ name: '/signInScreen' }}>
+      <Button title="Sign In"/>
+      </Link>
       <StatusBar style="auto" />
     </View>
   );
