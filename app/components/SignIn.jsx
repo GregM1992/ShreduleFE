@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, TextInput, Button, StyleSheet, Text } from "react-native";
 import checkuser from "../../api/user";  
 
-function SignIn() {
+ function SignIn() {
   const [user, setUser] = useState(null); 
   const [email, setEmail] = useState("");  
   const [password, setPassword] = useState(""); 
@@ -47,7 +47,6 @@ function SignIn() {
 }
 
 export default SignIn;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

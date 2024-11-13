@@ -1,6 +1,6 @@
 import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
       <Text>Hello! Welcome to Shredule!
       </Text>
       <Link href={{ name: '/signInScreen' }}>
-      <Button title="Sign In"/>
+      <Text style={styles.linkText}>Sign In</Text>
       </Link>
       <StatusBar style="auto" />
     </View>
