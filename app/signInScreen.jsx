@@ -1,4 +1,4 @@
-import { View, StyleSheet, SafeAreaView } from "react-native";
+import { View, StyleSheet, SafeAreaView, Text } from "react-native";
 import SignIn from "./components/SignIn";
 
 
@@ -6,7 +6,7 @@ export default function SignInScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.innerContainer}>
-        <Text> "hello world" </Text>
+        <Text>Sign In</Text>
         <SignIn />
       </View>
     </SafeAreaView>

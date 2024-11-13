@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello! Welcome to Shredule!
       </Text>
-      <Link href={{ name: '/signInScreen' }}>
+      <Link href="/signInScreen" >
       <Text style={styles.linkText}>Sign In</Text>
       </Link>
       <StatusBar style="auto" />
